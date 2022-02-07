@@ -215,3 +215,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Now Playing
 PRODUCT_PACKAGES += \
     NowPlayingOverlay
+
+# Quick Tap
+TARGET_SUPPORTS_QUICK_TAP := true
