@@ -1,0 +1,7 @@
+[
+  {
+    "repository": "kernel_google_redbull",
+    "target_path": "kernel/google/redbull",
+    "branch": "twelve"
+  }
+]
