@@ -42,4 +42,7 @@
         <item>restart_bootloader</item>
     </string-array>
 
+    <!-- AOSP WFD -->
+    <bool name="config_enableWifiDisplay">true</bool>
+
 </resources>
