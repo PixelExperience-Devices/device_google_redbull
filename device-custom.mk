@@ -215,3 +215,6 @@ PRODUCT_PACKAGES += \
 
 # Quick Tap
 TARGET_SUPPORTS_QUICK_TAP := true
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.columbus.use_ap_sensor=false \
+    persist.columbus.model=tap7cls_redfin.tflite
