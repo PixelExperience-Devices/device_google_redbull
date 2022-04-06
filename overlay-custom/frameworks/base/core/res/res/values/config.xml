@@ -45,4 +45,10 @@
     <!-- AOSP WFD -->
     <bool name="config_enableWifiDisplay">true</bool>
 
+    <!-- Whether device has a physical display cutout -->
+    <bool name="config_physicalDisplayCutout">true</bool>
+
+    <!-- Whether device has a centered display cutout -->
+    <bool name="config_physicalDisplayCutoutCentered">false</bool>
+
 </resources>
