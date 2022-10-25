@@ -34,10 +34,6 @@ PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay@2.0-service-sdm
 endif
 
-# Parts
-PRODUCT_PACKAGES += \
-    GoogleParts
-
 # RCS
 PRODUCT_PACKAGES += \
     PresencePolling \
