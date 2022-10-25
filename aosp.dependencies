@@ -1,0 +1,12 @@
+[
+  {
+    "repository": "device_google_gs-common",
+    "target_path": "device/google/gs-common",
+    "branch": "fourteen"
+  },
+  {
+    "repository": "kernel_google_redbull",
+    "target_path": "kernel/google/redbull",
+    "branch": "fourteen"
+  }
+]

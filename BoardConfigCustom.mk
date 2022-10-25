@@ -30,7 +30,7 @@ TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_TOGGLE := false
 
 # Manifests
 DEVICE_MANIFEST_FILE += device/google/redbull/lineage_manifest.xml
-DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += vendor/lineage/config/device_framework_matrix.xml
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += vendor/aosp/config/device_framework_matrix.xml
 
 # Needed for camera
 TARGET_GRALLOC_HANDLE_HAS_RESERVED_SIZE := true
@@ -42,11 +42,11 @@ AB_OTA_PARTITIONS += \
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 
 # Reserve space for gapps install
--include vendor/lineage/config/BoardConfigReservedSize.mk
+-include vendor/aosp/config/BoardConfigReservedSize.mk
 
 # SELinux
-BOARD_SEPOLICY_DIRS += device/google/redbull/sepolicy-lineage/dynamic
-BOARD_SEPOLICY_DIRS += device/google/redbull/sepolicy-lineage/vendor
+BOARD_SEPOLICY_DIRS += device/google/redbull/sepolicy-custom/dynamic
+BOARD_SEPOLICY_DIRS += device/google/redbull/sepolicy-custom/vendor
 
 # Verified Boot
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
