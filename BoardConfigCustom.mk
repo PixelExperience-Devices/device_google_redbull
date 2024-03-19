@@ -41,9 +41,6 @@ AB_OTA_PARTITIONS += \
 
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 
-# Reserve space for gapps install
--include vendor/aosp/config/BoardConfigReservedSize.mk
-
 # SELinux
 BOARD_SEPOLICY_DIRS += device/google/redbull/sepolicy-custom/dynamic
 BOARD_SEPOLICY_DIRS += device/google/redbull/sepolicy-custom/vendor
