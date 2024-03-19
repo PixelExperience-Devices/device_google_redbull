@@ -8,5 +8,11 @@
     "repository": "kernel_google_redbull",
     "target_path": "kernel/google/redbull",
     "branch": "fourteen"
+  },
+  {
+    "repository": "vendor_google-extra",
+    "target_path": "vendor/google-extra",
+    "branch": "fourteen",
+    "remote": "pixel-devices-blobs"
   }
 ]
