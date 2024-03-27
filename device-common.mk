@@ -67,6 +67,11 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     keyguard.no_require_sim=true
 
+# Telephony
+PRODUCT_PACKAGES += \
+    ims-ext-common \
+    ims_ext_common.xml
+
 # enable cal by default on accel sensor
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.vendor.debug.sensors.accel_cal=1
